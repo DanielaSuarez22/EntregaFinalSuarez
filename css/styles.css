@@ -637,13 +637,13 @@ flex-wrap: wrap;
             display:flex;
         flex-direction: row;
         position: relative;
-        
-        align-items: center;
+        justify-content: space-between;
+        align-items:center
         height: 4rem;
         }
         .logo-menu{
         width: 8rem;
-        height: 4rem;
+        height: 8rem;
         margin-top: 0;
         margin-right: 0;
         margin-left: 0;
@@ -685,7 +685,7 @@ flex-wrap: wrap;
         
         .combohistoria2{
         text-align: center;
-        background-color: rgba(255, 127, 80, 0.588);
+        background-color: rgba(255, 80, 83, 0.764);
         display: grid;
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(8, 2rem);
@@ -734,7 +734,7 @@ flex-wrap: wrap;
         
         }
         .googlemapsubicacion{
-            height: 14rem ;
+            height: 16rem ;
             width: 20rem;
         
         }
@@ -751,9 +751,8 @@ flex-wrap: wrap;
             font-size:1rem;
             text-transform: uppercase;
         font-weight: 600;
-        background-color: rgba(255, 161, 127, 0.992);
         padding: 4rem;
-        grid-column: 3/6;
+        grid-column: 3/9;
         grid-row: 3/8;
        
         }
@@ -802,8 +801,8 @@ flex-wrap: wrap;
            
         }
         .imgtrabajos{
-            height:12rem ;
-        width: 12rem;
+            height:11rem ;
+        width: 11rem;
         }
         /* Termina trabajos */
         
@@ -840,6 +839,8 @@ flex-wrap: wrap;
             text-transform: uppercase;
         font-weight: 800;
         text-align: right;
+        margin-right: 3rem;
+        margin-bottom: 2rem;
         }
         /* Termina contacto */
         
