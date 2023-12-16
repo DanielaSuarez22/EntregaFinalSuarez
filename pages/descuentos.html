@@ -1,54 +1,115 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DESCUENTOS</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css" />
 </head>
 <body class="fondo">
-    
-<header>
+    <header>
+        <div class="barra">
+            <div>
+                <a href="../index.html"> 
+                    <img class="logo-menu" src="../img/logoindiana.jpeg" alt="logo"/>
+                </a>
+            </div>
 
-    <section>
-    <h1 class="pagetittle"> descuentos </h1>
+            <section>
+                <h1 class="titulo-1">indiana estetica</h1>
+            </section>
+        
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">menu</a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active"
+                                    aria-current="page"
+                                    href="#historia"
+                                    >historia
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#servicios">servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#trabajos">trabajos</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    mas
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#novedades">novedades</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#contacto">contacto</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
 
-    <p class="participa"> participa y gana posibles descuentos </p>
+        <section>
+            <h1 class="pagetittle">descuentos</h1>
+            <p class="participa">participa y gana posibles descuentos</p>
+            <p class="como">¿como?</p>
+        </section>
+    </header>
 
-    <p class="como"> ¿como?</p>
-
-    </section>
-</header>
-
-<main>
-
+    <main>
     <!--inicio opciones-->
-    <div class="formas"> 
+        <div class="formas">
+            <h3 class="opcion">opcion 1</h3>
+            <p class="consigna">pedi tu tarjeta de cliente fiel</p>
+            <p class="explicacion">
+                solicita tu tarjeta y cuando juntes una cantidad de servicios
+                realizados te vas a ganar un descuento en tu proximo servicio
+            </p>
 
-<h3 class="opcion"> opcion 1</h3>
-<p class="consigna"> pedi tu tarjeta de cliente fiel </p>
-<p class="explicacion"> solicita tu tarjeta y cuando juntes una cantidad de servicios realizados te vas a ganar un descuento en tu proximo servicio</p>
+            <h3 class="opcion">opcion 2</h3>
+            <p class="consigna">¡comparti!</p>
+            <p class="explicacion">
+                comparti en tus redes sociales cada vez que te hagas un servicio en
+                nuestra estetica, de esta forma estaras participando de un sorteo
+                mensual por un cupon de descuento!
+            </p>
 
-<h3 class="opcion"> opcion 2</h3>
-<p class="consigna"> ¡comparti! </p>
-<p class="explicacion">comparti en tus redes sociales cada vez que te hagas un servicio en nuestra estetica, de esta forma estaras participando de un sorteo mensual por un cupon de descuento!</p>
-
-
-<h3 class="opcion" > opcion 3</h3>
-<p class="consigna"> recomenda a un amigo </p>
-<p class="explicacion"> invita a 3 amigos a realizarse un servicio con nosotros y te llevas un cupon de descuento</p>
-    </div>
+            <h3 class="opcion">opcion 3</h3>
+            <p class="consigna">recomenda a un amigo</p>
+            <p class="explicacion">
+                invita a 3 amigos a realizarse un servicio con nosotros y te llevas un
+                cupon de descuento
+            </p>
+        </div>
     <!--fin opciones-->
+    </main>
 
-</main>
-
-
- <!--volver pagina principal-->
-<footer>
-    <a class="volverpaginaprincipal" href="../index.html"> volver pagina principal</a>
-</footer>
-
-
+    <!--volver pagina principal-->
+    <footer>
+        <a class="volverpaginaprincipal" href="../index.html">
+            volver pagina principal
+        </a>
+    </footer>
 </body>
 </html>
