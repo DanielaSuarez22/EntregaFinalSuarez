@@ -1,3 +1,722 @@
+/*Empieza barra de menu */
+.barra {
+  background-color: rgba(236, 182, 174, 0.414);
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  height: 5.5rem;
+}
+
+.logo-menu {
+  width: 4rem;
+  height: 4rem;
+  margin-left: 1rem;
+  border-radius: 4rem;
+}
+
+.titulo {
+  color: rgb(113, 8, 211);
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bolder;
+  margin-left: 1.5rem;
+}
+
+/*Termina barra de menu */
+@media only screen and (min-width: 500px) {
+  .barra {
+    background-color: rgba(236, 182, 174, 0.664);
+    height: 6rem;
+  }
+  .logo-menu {
+    width: 6rem;
+    height: 6rem;
+  }
+  .titulo {
+    color: rgba(71, 7, 131, 0.779);
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (min-width: 750px) {
+  .barra {
+    background-color: rgba(236, 182, 174, 0.907);
+    height: 7rem;
+  }
+  .logo-menu {
+    width: 8rem;
+    height: 8rem;
+  }
+  .titulo {
+    color: rgba(71, 7, 131, 0.779);
+    font-size: 1.8rem;
+  }
+}
+/* Empieza historia */
+.combohistoria2 {
+  text-align: center;
+  background-color: rgba(252, 171, 141, 0.297);
+  height: 12rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 3rem);
+}
+.combohistoria2 .subtitulo-1 {
+  color: rgba(128, 0, 128, 0.649);
+  font-size: 1rem;
+  font-style: oblique;
+  font-weight: bolder;
+  text-align: left;
+  text-transform: uppercase;
+}
+.combohistoria2 .salonestetica {
+  width: 10rem;
+  height: 11rem;
+  grid-column: 8/10;
+  margin-right: 0.5rem;
+}
+.combohistoria2 .palabraNegrita {
+  font-size: 0.5rem;
+  font-weight: 600;
+}
+
+.subtitulo-1 {
+  color: rgba(128, 0, 128, 0.649);
+  font-size: 1rem;
+  font-style: oblique;
+  font-weight: bolder;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.historia-1 {
+  grid-column: 1/7;
+  grid-row: 1/2;
+  margin-left: 1rem;
+}
+
+.historia-2 {
+  grid-column: 1/7;
+  grid-row: 2/6;
+  text-align: left;
+  margin-left: 0.5rem;
+}
+
+.historia-3 {
+  grid-column: 8/9;
+  grid-row: 4/5;
+  font-size: smaller;
+  margin-top: 1.8rem;
+  /*pagina*/
+  text-transform: capitalize;
+  color: rgba(100, 7, 0, 0.577);
+  border: 2px under rgb(191, 130, 238);
+  padding: 0;
+}
+
+/* Termina historia */
+/* Empieza ubicacion */
+.ubicacion {
+  background-color: rgba(244, 130, 246, 0.475);
+  display: flex;
+  padding-left: 2rem;
+  flex-direction: column;
+}
+
+.googlemapsubicacion {
+  height: 9rem;
+  width: 9rem;
+}
+
+.visit {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+.palabraNegro {
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.calendario {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* Termina ubicacion */
+@media only screen and (min-width: 500px) {
+  /* Empieza historia */
+  .combohistoria2 {
+    background-color: rgba(252, 171, 141, 0.297);
+    height: 12rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 3rem);
+  }
+  .combohistoria2 .subtitulo-1 {
+    color: rgba(128, 0, 128, 0.649);
+    font-size: 1rem;
+  }
+  .combohistoria2 .salonestetica {
+    width: 10rem;
+    height: 11rem;
+  }
+  .combohistoria2 .palabraNegrita {
+    font-size: 0.5rem;
+    font-weight: 600;
+  }
+  .subtitulo-1 {
+    color: rgba(128, 0, 128, 0.649);
+    font-size: 1rem;
+  }
+  .historia-1 {
+    grid-column: 1/7;
+    grid-row: 1/2;
+    margin-left: 1rem;
+  }
+  .historia-2 {
+    grid-column: 1/7;
+    grid-row: 2/6;
+    text-align: left;
+    margin-left: 0.5rem;
+  }
+  .historia-3 {
+    grid-column: 8/9;
+    grid-row: 4/5;
+    font-size: smaller;
+    margin-top: 1.8rem;
+    /*pagina*/
+    text-transform: capitalize;
+    color: rgba(100, 7, 0, 0.577);
+    border: 2px under rgb(191, 130, 238);
+    padding: 0;
+  }
+  /* Termina historia */
+  /* Empieza ubicacion */
+  .ubicacion {
+    background-color: rgba(244, 130, 246, 0.475);
+    padding-left: 2rem;
+  }
+  .googlemapsubicacion {
+    height: 9rem;
+    width: 9rem;
+  }
+  .visit {
+    font-size: 0.8rem;
+  }
+  .calendario {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  /* Termina ubicacion */
+}
+@media only screen and (min-width: 750px) {
+  /* Empieza historia */
+  .combohistoria2 {
+    text-align: center;
+    background-color: rgba(252, 171, 141, 0.297);
+    height: 12rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 3rem);
+  }
+  .combohistoria2 .subtitulo-1 {
+    color: rgba(128, 0, 128, 0.649);
+    font-size: 1rem;
+    font-style: oblique;
+    font-weight: bolder;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  .combohistoria2 .salonestetica {
+    width: 10rem;
+    height: 11rem;
+    grid-column: 8/10;
+    margin-right: 0.5rem;
+  }
+  .combohistoria2 .palabraNegrita {
+    font-size: 0.5rem;
+    font-weight: 600;
+  }
+  .subtitulo-1 {
+    color: rgba(128, 0, 128, 0.649);
+    font-size: 1rem;
+    font-style: oblique;
+    font-weight: bolder;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  .historia-1 {
+    grid-column: 1/7;
+    grid-row: 1/2;
+    margin-left: 1rem;
+  }
+  .historia-2 {
+    grid-column: 1/7;
+    grid-row: 2/6;
+    text-align: left;
+    margin-left: 0.5rem;
+  }
+  .historia-3 {
+    grid-column: 8/9;
+    grid-row: 4/5;
+    font-size: smaller;
+    margin-top: 1.8rem;
+    /*pagina*/
+    text-transform: capitalize;
+    color: rgba(100, 7, 0, 0.577);
+    border: 2px under rgb(191, 130, 238);
+    padding: 0;
+  }
+  /* Termina historia */
+  /* Empieza ubicacion */
+  .ubicacion {
+    background-color: rgba(244, 130, 246, 0.475);
+    display: flex;
+    padding-left: 2rem;
+    flex-direction: column;
+  }
+  .googlemapsubicacion {
+    height: 9rem;
+    width: 9rem;
+  }
+  .visit {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
+  .palabraNegro {
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  .calendario {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  /* Termina ubicacion */
+}
+/* Empieza trabajos */
+.ejemplos {
+  background-color: rgba(236, 155, 126, 0.507);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-right: 1rem;
+}
+
+.imgtrabajos {
+  height: 6rem;
+  width: 6rem;
+}
+
+/* Termina trabajos */
+/* Empieza Servicios */
+.pagina {
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  color: rgba(200, 22, 9, 0.46);
+  border: 2px under rgb(191, 130, 238);
+  padding: 0;
+}
+
+.service {
+  background-color: rgba(242, 174, 175, 0.622);
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.serv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 10rem);
+}
+
+.titulodeservicio {
+  color: rgba(220, 20, 20, 0.921);
+  text-decoration-line: underline;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-left: 1rem;
+}
+
+.imagenservicio {
+  height: 6rem;
+  width: 6rem;
+}
+
+/* Termmina Servicios */
+@media only screen and (min-width: 500px) {
+  /* Empieza trabajos */
+  .ejemplos {
+    background-color: rgba(236, 155, 126, 0.507);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-right: 1rem;
+  }
+  .imgtrabajos {
+    height: 6rem;
+    width: 6rem;
+  }
+  /* Termina trabajos */
+  /* Empieza Servicios */
+  .pagina {
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    color: rgba(200, 22, 9, 0.46);
+    border: 2px under rgb(191, 130, 238);
+    padding: 0;
+  }
+  .service {
+    background-color: rgba(242, 174, 175, 0.622);
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .serv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 10rem);
+  }
+  .titulodeservicio {
+    color: rgba(220, 20, 20, 0.921);
+    text-decoration-line: underline;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-left: 1rem;
+  }
+  .imagenservicio {
+    height: 6rem;
+    width: 6rem;
+  }
+  /* Termmina Servicios */
+}
+@media only screen and (min-width: 750px) {
+  /* Empieza trabajos */
+  .ejemplos {
+    background-color: rgba(236, 155, 126, 0.507);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-right: 1rem;
+  }
+  .imgtrabajos {
+    height: 6rem;
+    width: 6rem;
+  }
+  /* Termina trabajos */
+  /* Empieza Servicios */
+  .pagina {
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    color: rgba(200, 22, 9, 0.46);
+    border: 2px under rgb(191, 130, 238);
+    padding: 0;
+  }
+  .service {
+    background-color: rgba(242, 174, 175, 0.622);
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .serv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 10rem);
+  }
+  .titulodeservicio {
+    color: rgba(220, 20, 20, 0.921);
+    text-decoration-line: underline;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-left: 1rem;
+  }
+  .imagenservicio {
+    height: 6rem;
+    width: 6rem;
+  }
+  /* Termmina Servicios */
+}
+/* Empieza novedades */
+.nov {
+  margin-left: 2rem;
+}
+
+.novedades {
+  padding-left: 1rem;
+  list-style: circle;
+  background-color: rgba(165, 42, 42, 0.349);
+}
+
+/* Termina novedades */
+/* Empieza contacto */
+#contacto {
+  margin: 1rem;
+}
+
+.redessociales {
+  display: flex;
+  justify-content: space-around;
+  gap: 1.5rem;
+}
+
+.logo {
+  width: 3rem;
+  height: 3rem;
+}
+
+.comenta {
+  font-size: larger;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: right;
+  margin: 1rem;
+}
+
+/* Termina contacto */
+.pagetittle {
+  color: rgb(74, 14, 131);
+  font-size: 2rem;
+  padding: 2rem;
+  font-style: italic;
+  font-weight: bolder;
+  text-transform: uppercase;
+  background-color: rgba(165, 42, 42, 0.393);
+}
+
+.calendari {
+  height: 15rem;
+  width: 15rem;
+}
+
+.calendariosemanal {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 500px) {
+  .pagetittle {
+    color: rgb(74, 14, 131);
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: rgba(165, 42, 42, 0.393);
+  }
+  .calendari {
+    height: 15rem;
+    width: 15rem;
+  }
+}
+@media only screen and (min-width: 750px) {
+  .pagetittle {
+    color: rgb(74, 14, 131);
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: rgba(165, 42, 42, 0.393);
+  }
+  .calendari {
+    height: 15rem;
+    width: 15rem;
+  }
+}
+.participa {
+  color: rgba(0, 0, 0, 0.918);
+  font-size: 2rem;
+  font-style: oblique;
+  font-weight: bolder;
+  text-align: left;
+  text-transform: uppercase;
+  border-bottom: violet solid 1px;
+}
+
+.como {
+  font-size: larger;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+.opcion {
+  font-size: larger;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.consigna {
+  font-size: larger;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.explicacion {
+  font-size: larger;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+@media only screen and (min-width: 500px) {
+  .participa {
+    color: rgba(0, 0, 0, 0.918);
+    font-size: 2rem;
+  }
+  .como {
+    font-size: larger;
+    font-weight: 800;
+  }
+  .opcion {
+    font-size: larger;
+    font-weight: 800;
+  }
+  .consigna {
+    font-size: larger;
+    font-weight: 600;
+  }
+  .explicacion {
+    font-size: larger;
+    font-weight: 600;
+  }
+}
+@media only screen and (min-width: 750px) {
+  .participa {
+    color: rgba(0, 0, 0, 0.918);
+    font-size: 2rem;
+    border-bottom: violet solid 1px;
+  }
+  .como {
+    font-size: larger;
+    font-weight: 800;
+  }
+  .opcion {
+    font-size: larger;
+    font-weight: 800;
+  }
+  .consigna {
+    font-size: larger;
+    font-weight: 600;
+  }
+  .explicacion {
+    font-size: larger;
+    font-weight: 600;
+  }
+}
+.titulohistoria {
+  color: rgba(76, 0, 130, 0.964);
+  font-size: 1rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.indipic {
+  height: 7rem;
+  width: 7rem;
+}
+
+.fotoindi {
+  height: 7rem;
+  width: 7rem;
+}
+
+.volverpaginaprincipal {
+  background-color: rgba(139, 0, 139, 0.925);
+  color: rgb(255, 255, 255);
+}
+
+.veni {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.indianoconclientas {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  font-size: small;
+}
+
+@media only screen and (min-width: 500px) {
+  .titulohistoria {
+    color: rgba(76, 0, 130, 0.964);
+    font-size: 1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  .indipic {
+    height: 7rem;
+    width: 7rem;
+  }
+  .fotoindi {
+    height: 7rem;
+    width: 7rem;
+  }
+  .volverpaginaprincipal {
+    background-color: rgba(139, 0, 139, 0.925);
+    color: rgb(255, 255, 255);
+  }
+  .veni {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .indianoconclientas {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+    font-size: small;
+  }
+}
+@media only screen and (min-width: 750px) {
+  .titulohistoria {
+    color: rgba(76, 0, 130, 0.964);
+    font-size: 1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  .indipic {
+    height: 7rem;
+    width: 7rem;
+  }
+  .fotoindi {
+    height: 7rem;
+    width: 7rem;
+  }
+  .volverpaginaprincipal {
+    background-color: rgba(139, 0, 139, 0.925);
+    color: rgb(255, 255, 255);
+  }
+  .veni {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .indianoconclientas {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+    font-size: small;
+  }
+}
+.listadeprecio {
+  height: 25rem;
+  width: 20rem;
+}
+
+@media only screen and (min-width: 500px) {
+  .listadeprecio {
+    height: 25rem;
+    width: 20rem;
+  }
+}
+@media only screen and (min-width: 750px) {
+  .listadeprecio {
+    height: 25rem;
+    width: 20rem;
+  }
+}
 /* ESTILOS GLOBALES */
 * {
   font-family: "Roboto", sans-serif;
@@ -17,201 +736,15 @@ ul {
   background-color: rgba(245, 227, 220, 0.521);
 }
 
-/*Empieza barra de menu */
-.barra {
-  background-color: rgba(255, 103, 80, 0.414);
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  align-items: center;
-  height: 6rem;
+@media only screen and (min-width: 500px) {
+  .fondo {
+    background-color: rgba(233, 161, 132, 0.786);
+  }
 }
-
-.logo-menu {
-  width: 4rem;
-  height: 6rem;
-  margin-top: 0;
-  margin-right: 0;
-  margin-left: 0;
+@media only screen and (min-width: 750px) {
+  .fondo {
+    background-color: rgba(215, 197, 243, 0.316);
+  }
 }
-
-.nav-item {
-  font-size: 1rem;
-}
-
-.titulo-1 {
-  color: rgb(74, 14, 131);
-  font-size: 1.4rem;
-  font-style: italic;
-  font-weight: bolder;
-  margin-left: 1.5rem;
-}
-
-/*Termina barra de menu */
-/* Empieza historia */
-.subtitulo-1 {
-  color: rgba(128, 0, 128, 0.649);
-  font-size: 1rem;
-  font-style: oblique;
-  font-weight: bolder;
-  text-align: left;
-  text-transform: uppercase;
-}
-
-.palabraNegrita {
-  font-size: small;
-  font-weight: 600;
-}
-
-.combohistoria2 {
-  text-align: center;
-  background-color: rgba(255, 127, 80, 0.588);
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 3rem);
-}
-
-.historia-1 {
-  grid-column: 1/7;
-  grid-row: 1/2;
-  margin-left: 1rem;
-}
-
-.historia-2 {
-  grid-column: 1/7;
-  grid-row: 2/6;
-  text-align: left;
-  margin-left: 0.5rem;
-}
-
-.historia-3 {
-  grid-column: 8/10;
-  grid-row: 9/10;
-  font-size: smaller;
-}
-
-.salonestetica {
-  height: 22rem;
-  width: 8rem;
-  grid-column: 8/10;
-}
-
-.pagina {
-  text-transform: capitalize;
-  color: rgba(100, 7, 0, 0.577);
-  border: 2px solid rgb(191, 130, 238);
-}
-
-/* Termina historia */
-/* Empieza ubicacion */
-.ubicacion {
-  background-color: rgb(147, 78, 211);
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(8, 1.5rem);
-}
-
-.googlemapsubicacion {
-  height: 11rem;
-  width: 11rem;
-}
-
-.visit {
-  grid-column: 2/7;
-  grid-row: 1/4;
-  font-size: 1rem;
-  align-self: center;
-}
-
-.palabraNegro {
-  text-decoration-line: underline;
-  text-transform: uppercase;
-  font-weight: 800;
-  text-align: right;
-}
-
-.barra {
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  justify-self: center;
-  font-weight: 600;
-  grid-column: 2/7;
-  grid-row: 4/7;
-}
-
-/* Termina ubicacion */
-/* Empieza Servicios */
-.service {
-  background-color: rgba(220, 91, 93, 0.622);
-  padding: 1rem;
-  font-size: 1.5rem;
-}
-
-.serv {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 10rem);
-}
-
-.titulodeservicio {
-  color: rgba(220, 20, 20, 0.921);
-  text-decoration-line: underline;
-  font: size 2rem;
-  text-transform: uppercase;
-  font-weight: bolder;
-  text-align: center;
-}
-
-.imagenservicio {
-  height: 6rem;
-  width: 6rem;
-}
-
-/* Termmina Servicios */
-/* Empieza trabajos */
-.ejemplos {
-  background-color: rgba(255, 127, 80, 0.507);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.imgtrabajos {
-  height: 6rem;
-  width: 6rem;
-}
-
-/* Termina trabajos */
-/* Empieza novedades */
-.novedades {
-  list-style: circle;
-  background-color: rgba(165, 42, 42, 0.349);
-}
-
-/* Termina novedades */
-/* Empieza contacto */
-.redessociales {
-  font-size: larger;
-  text-transform: uppercase;
-  font-weight: 800;
-  text-align: left;
-  display: flex;
-  justify-content: space-around;
-  gap: 2rem;
-}
-
-.logo {
-  width: 1rem;
-  height: 1rem;
-}
-
-.comenta {
-  font-size: larger;
-  text-transform: uppercase;
-  font-weight: 800;
-  text-align: right;
-}
-
-/* Termina contacto */
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,157 @@
+@import "../base/variables";
+
+@import "../base/maps";
+
+@import "../base/extends";
+
+@import "../base/mixinds.scss";
+
+
+/* Empieza trabajos */
+.ejemplos{
+    background-color: rgba(236, 155, 126, 0.507);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-right: 1rem;
+}
+.imgtrabajos{
+    height:6rem ;
+    width: 6rem;
+}
+/* Termina trabajos */
+/* Empieza Servicios */
+.pagina {
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    color: rgba(200, 22, 9, 0.46);
+    border: 2px under rgb(191, 130, 238);
+    padding: 0;
+}
+.service {
+    background-color: rgba(242, 174, 175, 0.622);
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.serv {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2 , 10rem);
+}
+
+.titulodeservicio{
+    color: rgba(220, 20, 20, 0.921);
+    text-decoration-line:underline;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-left: 1rem;
+}
+
+.imagenservicio{
+    height: 6rem;
+    width: 6rem;
+}
+/* Termmina Servicios */
+
+@media only screen and (min-width:500px)
+{
+    /* Empieza trabajos */
+.ejemplos{
+    background-color: rgba(236, 155, 126, 0.507);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-right: 1rem;
+}
+.imgtrabajos{
+    height:6rem ;
+    width: 6rem;
+}
+/* Termina trabajos */
+/* Empieza Servicios */
+.pagina {
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    color: rgba(200, 22, 9, 0.46);
+    border: 2px under rgb(191, 130, 238);
+    padding: 0;
+}
+.service {
+    background-color: rgba(242, 174, 175, 0.622);
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.serv {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2 , 10rem);
+}
+
+.titulodeservicio{
+    color: rgba(220, 20, 20, 0.921);
+    text-decoration-line:underline;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-left: 1rem;
+}
+
+.imagenservicio{
+    height: 6rem;
+    width: 6rem;
+}
+/* Termmina Servicios */
+}
+
+@media only screen and (min-width:750px) {
+       /* Empieza trabajos */
+.ejemplos{
+    background-color: rgba(236, 155, 126, 0.507);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-right: 1rem;
+}
+.imgtrabajos{
+    height:6rem ;
+    width: 6rem;
+}
+/* Termina trabajos */
+/* Empieza Servicios */
+.pagina {
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    color: rgba(200, 22, 9, 0.46);
+    border: 2px under rgb(191, 130, 238);
+    padding: 0;
+}
+.service {
+    background-color: rgba(242, 174, 175, 0.622);
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.serv {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2 , 10rem);
+}
+
+.titulodeservicio{
+    color: rgba(220, 20, 20, 0.921);
+    text-decoration-line:underline;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-left: 1rem;
+}
+
+.imagenservicio{
+    height: 6rem;
+    width: 6rem;
+}
+/* Termmina Servicios */
+}

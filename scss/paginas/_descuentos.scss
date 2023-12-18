@@ -1,0 +1,100 @@
+@import "../base/variables";
+
+@import "../base/maps";
+
+@import "../base/extends";
+
+@import "../base/mixinds.scss";
+
+
+.participa{
+    color:rgba(0, 0, 0, 0.918);
+    font-size: 2rem;
+    font-style: oblique;
+    font-weight: bolder;
+    text-align: left;
+    text-transform: uppercase;
+    border-bottom: violet solid 1px;
+
+}
+
+.como{
+    font-size: larger;
+    font-weight: 800;
+    text-transform:capitalize
+}
+
+.opcion{
+    font-size: larger;
+    font-weight: 800;
+    text-transform:uppercase
+}
+
+.consigna{
+    font-size: larger;
+    font-weight: 600;
+    text-transform:uppercase
+}
+
+.explicacion{
+    font-size: larger;
+    font-weight: 600;
+    text-transform:capitalize
+}
+
+@media only screen and (min-width:500px)
+{
+    .participa{
+        color:rgba(0, 0, 0, 0.918);
+        font-size: 2rem;
+    
+    }
+    
+    .como{
+        font-size: larger;
+        font-weight: 800;
+    }
+    
+    .opcion{
+        font-size: larger;
+        font-weight: 800;
+    }
+    
+    .consigna{
+        font-size: larger;
+        font-weight: 600;
+    }
+    
+    .explicacion{
+        font-size: larger;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width:750px) {
+    .participa{
+        color:rgba(0, 0, 0, 0.918);
+        font-size: 2rem;
+        border-bottom: violet solid 1px;
+    }
+    
+    .como{
+        font-size: larger;
+        font-weight: 800;
+    }
+    
+    .opcion{
+        font-size: larger;
+        font-weight: 800;
+    }
+    
+    .consigna{
+        font-size: larger;
+        font-weight: 600;
+    }
+    
+    .explicacion{
+        font-size: larger;
+        font-weight: 600;
+    }
+}

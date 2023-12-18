@@ -1,0 +1,33 @@
+@import "../base/variables";
+
+@import "../base/maps";
+
+@import "../base/extends";
+
+@import "../base/mixinds.scss";
+
+
+.listadeprecio{
+    height:25rem ;
+    width: 20rem;
+    
+}
+
+@media only screen and (min-width:500px)
+{
+    .listadeprecio{
+        height:25rem ;
+        width: 20rem;
+        
+    }
+    
+}
+
+@media only screen and (min-width:750px) {
+    .listadeprecio{
+        height:25rem ;
+        width: 20rem;
+        
+    }
+    
+}

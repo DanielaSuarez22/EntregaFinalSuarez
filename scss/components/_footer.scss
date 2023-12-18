@@ -2,38 +2,44 @@
 
 @import "../base/maps";
 
-/* Empieza novedades */
+@import "../base/extends";
 
+@import "../base/mixinds.scss";
+
+
+/* Empieza novedades */
+.nov{
+    margin-left: 2rem;
+
+}
 .novedades{
+    padding-left: 1rem;
     list-style:circle;
     background-color: rgba(165, 42, 42, 0.349);
-    }
-     
-    
-    
-    /* Termina novedades */
-    
-    /* Empieza contacto */
-    
-    .redessociales{
-        font-size:larger;
-        text-transform: uppercase;
-    font-weight: 800;
-    text-align: left;
+}
+
+/* Termina novedades */
+
+/* Empieza contacto */
+#contacto{
+    margin: 1rem;
+}
+.redessociales{
     display: flex;
     justify-content: space-around;
-    gap: 2rem;
-    }
-     .logo {
-        width: 1rem;
-        height: 1rem;
-        
-     }
-    .comenta{
-        font-size:larger;
-        text-transform: uppercase;
+    gap: 1.5rem;
+}
+.logo {
+
+    width: 3rem;
+    height: 3rem;
+}
+.comenta{
+    font-size:larger;
+    text-transform: uppercase;
     font-weight: 800;
     text-align: right;
-    }
-    /* Termina contacto */
-    
+    margin: 1rem;
+}
+/* Termina contacto */
+

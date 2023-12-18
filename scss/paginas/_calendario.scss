@@ -1,0 +1,56 @@
+@import "../base/variables";
+
+@import "../base/maps";
+
+@import "../base/extends";
+
+@import "../base/mixinds.scss";
+
+
+
+.pagetittle {
+    color: rgb(74, 14, 131);
+    font-size: 2rem;
+    padding: 2rem;
+    font-style: italic;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: rgba(165, 42, 42, 0.393);
+}
+.calendari{
+    height:15rem ;
+    width: 15rem;
+}
+.calendariosemanal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width:500px)
+{
+.pagetittle {
+    color: rgb(74, 14, 131);
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: rgba(165, 42, 42, 0.393);
+}
+.calendari{
+    height:15rem ;
+    width: 15rem;
+}
+}
+
+
+@media only screen and (min-width:750px) {
+
+.pagetittle {
+    color: rgb(74, 14, 131);
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: rgba(165, 42, 42, 0.393);
+}
+.calendari{
+    height:15rem ;
+    width: 15rem;
+}
+}
