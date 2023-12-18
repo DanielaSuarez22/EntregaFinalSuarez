@@ -1,17 +1,31 @@
-/* Error: expected "{".
- *    ,
- * 24 |  gg
- *    |    ^
- *    '
- *   scss\style.scss 24:4  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 24 \2502   gg\a    \2502     ^\a    \2575 \a   scss\\style.scss 24:4  root stylesheet';
+/* ESTILOS GLOBALES */
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.fondo {
+  background-color: rgba(245, 227, 220, 0.521);
+}
+
+@media only screen and (min-width: 500px) {
+  .fondo {
+    background-color: rgba(245, 223, 220, 0.948);
+  }
+}
+@media only screen and (min-width: 750px) {
+  .fondo {
+    background-color: rgba(243, 164, 234, 0.507);
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

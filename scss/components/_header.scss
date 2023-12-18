@@ -1,0 +1,35 @@
+/*Empieza barra de menu */
+.barra {
+        background-color: rgba(255, 103, 80, 0.414);
+        display:flex;
+        flex-direction: row;
+        position: relative; 
+        align-items: center;
+        height: 6rem;
+    }
+
+
+.logo-menu{
+        width: 10%;
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+.nav-item {
+        font-size: 1rem;
+    
+    }    
+
+
+.titulo-1{
+        color: rgb(74, 14, 131);
+        font-size: 1.4rem;
+        font-style: italic;
+        font-weight: bolder;
+        margin-left: 1.5rem;
+        
+    }
+
+/*Termina barra de menu */
