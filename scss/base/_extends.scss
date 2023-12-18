@@ -1,4 +1,28 @@
-%Parrafos {
-    font-size:5rem ;
-    
+%titulo {
+    color: rgb(113, 8, 211);
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bolder;
+    margin-left: 1.5rem;
 }
+
+%subtitulouno{
+    color: rgba(128, 0, 128, 0.649);
+    font-size : 1rem;
+    font-style : oblique;
+    font-weight : bolder;
+    text-align : left;
+    text-transform : uppercase;
+}
+
+
+
+%pagina{
+    text-transform: capitalize;
+    color: rgba(100, 7, 0, 0.577);
+    border: 2px under rgb(191, 130, 238);
+    padding: 0;
+}
+
+

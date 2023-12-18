@@ -16,8 +16,7 @@
     padding-right: 1rem;
 }
 .imgtrabajos{
-    height:6rem ;
-    width: 6rem;
+    @include foto (6rem,6rem);
 }
 /* Termina trabajos */
 /* Empieza Servicios */
@@ -50,8 +49,7 @@
 }
 
 .imagenservicio{
-    height: 6rem;
-    width: 6rem;
+    @include foto (6rem,6rem);
 }
 /* Termmina Servicios */
 
@@ -66,8 +64,7 @@
     padding-right: 1rem;
 }
 .imgtrabajos{
-    height:6rem ;
-    width: 6rem;
+    @include foto (10rem,11rem);
 }
 /* Termina trabajos */
 /* Empieza Servicios */

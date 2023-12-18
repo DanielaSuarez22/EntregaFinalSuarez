@@ -1,3 +1,28 @@
+.titulo {
+  color: rgb(113, 8, 211);
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bolder;
+  margin-left: 1.5rem;
+}
+
+.subtitulo-1 {
+  color: rgba(128, 0, 128, 0.649);
+  font-size: 1rem;
+  font-style: oblique;
+  font-weight: bolder;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.historia-3 {
+  text-transform: capitalize;
+  color: rgba(100, 7, 0, 0.577);
+  border: 2px under rgb(191, 130, 238);
+  padding: 0;
+}
+
 /*Empieza barra de menu */
 .barra {
   background-color: rgba(236, 182, 174, 0.414);
@@ -13,15 +38,6 @@
   height: 4rem;
   margin-left: 1rem;
   border-radius: 4rem;
-}
-
-.titulo {
-  color: rgb(113, 8, 211);
-  font-size: 1.4rem;
-  text-transform: uppercase;
-  font-style: italic;
-  font-weight: bolder;
-  margin-left: 1.5rem;
 }
 
 /*Termina barra de menu */
@@ -53,6 +69,31 @@
     font-size: 1.8rem;
   }
 }
+.titulo {
+  color: rgb(113, 8, 211);
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bolder;
+  margin-left: 1.5rem;
+}
+
+.subtitulo-1 {
+  color: rgba(128, 0, 128, 0.649);
+  font-size: 1rem;
+  font-style: oblique;
+  font-weight: bolder;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.historia-3 {
+  text-transform: capitalize;
+  color: rgba(100, 7, 0, 0.577);
+  border: 2px under rgb(191, 130, 238);
+  padding: 0;
+}
+
 /* Empieza historia */
 .combohistoria2 {
   text-align: center;
@@ -61,14 +102,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 3rem);
-}
-.combohistoria2 .subtitulo-1 {
-  color: rgba(128, 0, 128, 0.649);
-  font-size: 1rem;
-  font-style: oblique;
-  font-weight: bolder;
-  text-align: left;
-  text-transform: uppercase;
 }
 .combohistoria2 .salonestetica {
   width: 10rem;
@@ -79,15 +112,6 @@
 .combohistoria2 .palabraNegrita {
   font-size: 0.5rem;
   font-weight: 600;
-}
-
-.subtitulo-1 {
-  color: rgba(128, 0, 128, 0.649);
-  font-size: 1rem;
-  font-style: oblique;
-  font-weight: bolder;
-  text-align: left;
-  text-transform: uppercase;
 }
 
 .historia-1 {
@@ -108,11 +132,6 @@
   grid-row: 4/5;
   font-size: smaller;
   margin-top: 1.8rem;
-  /*pagina*/
-  text-transform: capitalize;
-  color: rgba(100, 7, 0, 0.577);
-  border: 2px under rgb(191, 130, 238);
-  padding: 0;
 }
 
 /* Termina historia */
@@ -125,8 +144,8 @@
 }
 
 .googlemapsubicacion {
-  height: 9rem;
   width: 9rem;
+  height: 9rem;
 }
 
 .visit {
@@ -150,27 +169,26 @@
 @media only screen and (min-width: 500px) {
   /* Empieza historia */
   .combohistoria2 {
-    background-color: rgba(252, 171, 141, 0.297);
-    height: 12rem;
+    background-color: rgba(227, 117, 78, 0.297);
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 3rem);
-  }
-  .combohistoria2 .subtitulo-1 {
-    color: rgba(128, 0, 128, 0.649);
-    font-size: 1rem;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 3rem);
   }
   .combohistoria2 .salonestetica {
-    width: 10rem;
-    height: 11rem;
+    width: 15rem;
+    height: 16rem;
   }
   .combohistoria2 .palabraNegrita {
-    font-size: 0.5rem;
+    font-size: 1rem;
     font-weight: 600;
   }
   .subtitulo-1 {
-    color: rgba(128, 0, 128, 0.649);
-    font-size: 1rem;
+    color: rgba(122, 4, 122, 0.792);
+    font-size: 2rem;
+    font-style: oblique;
+    font-weight: bolder;
+    text-align: left;
+    text-transform: uppercase;
   }
   .historia-1 {
     grid-column: 1/7;
@@ -179,20 +197,14 @@
   }
   .historia-2 {
     grid-column: 1/7;
-    grid-row: 2/6;
+    grid-row: 3/9;
     text-align: left;
     margin-left: 0.5rem;
   }
   .historia-3 {
-    grid-column: 8/9;
-    grid-row: 4/5;
+    grid-column: 8/10;
+    grid-row: 9/10;
     font-size: smaller;
-    margin-top: 1.8rem;
-    /*pagina*/
-    text-transform: capitalize;
-    color: rgba(100, 7, 0, 0.577);
-    border: 2px under rgb(191, 130, 238);
-    padding: 0;
   }
   /* Termina historia */
   /* Empieza ubicacion */
@@ -201,50 +213,38 @@
     padding-left: 2rem;
   }
   .googlemapsubicacion {
-    height: 9rem;
-    width: 9rem;
+    width: 11rem;
+    height: 11rem;
   }
   .visit {
     font-size: 0.8rem;
   }
   .calendario {
-    font-size: 0.7rem;
-    text-transform: uppercase;
-    font-weight: 600;
+    font-size: 0.8rem;
   }
   /* Termina ubicacion */
 }
 @media only screen and (min-width: 750px) {
   /* Empieza historia */
   .combohistoria2 {
-    text-align: center;
-    background-color: rgba(252, 171, 141, 0.297);
-    height: 12rem;
+    background-color: rgba(230, 97, 49, 0.297);
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 3rem);
-  }
-  .combohistoria2 .subtitulo-1 {
-    color: rgba(128, 0, 128, 0.649);
-    font-size: 1rem;
-    font-style: oblique;
-    font-weight: bolder;
-    text-align: left;
-    text-transform: uppercase;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 2rem);
   }
   .combohistoria2 .salonestetica {
-    width: 10rem;
-    height: 11rem;
-    grid-column: 8/10;
+    width: 25rem;
+    height: 24rem;
+    grid-column: 7/10;
     margin-right: 0.5rem;
   }
   .combohistoria2 .palabraNegrita {
-    font-size: 0.5rem;
+    font-size: 1rem;
     font-weight: 600;
   }
   .subtitulo-1 {
-    color: rgba(128, 0, 128, 0.649);
-    font-size: 1rem;
+    color: rgba(100, 3, 100, 0.649);
+    font-size: 4rem;
     font-style: oblique;
     font-weight: bolder;
     text-align: left;
@@ -257,36 +257,28 @@
   }
   .historia-2 {
     grid-column: 1/7;
-    grid-row: 2/6;
+    grid-row: 3/6;
     text-align: left;
     margin-left: 0.5rem;
   }
   .historia-3 {
-    grid-column: 8/9;
-    grid-row: 4/5;
+    grid-column: 7/8;
+    grid-row: 9/10;
     font-size: smaller;
     margin-top: 1.8rem;
-    /*pagina*/
-    text-transform: capitalize;
-    color: rgba(100, 7, 0, 0.577);
-    border: 2px under rgb(191, 130, 238);
-    padding: 0;
   }
   /* Termina historia */
   /* Empieza ubicacion */
   .ubicacion {
-    background-color: rgba(244, 130, 246, 0.475);
-    display: flex;
-    padding-left: 2rem;
-    flex-direction: column;
+    background-color: rgba(241, 183, 242, 0.475);
   }
   .googlemapsubicacion {
-    height: 9rem;
-    width: 9rem;
+    width: 16rem;
+    height: 16rem;
   }
   .visit {
     font-size: 0.8rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
   .palabraNegro {
     text-decoration-line: underline;
@@ -294,12 +286,38 @@
     font-weight: 800;
   }
   .calendario {
-    font-size: 0.7rem;
+    font-size: 1rem;
     text-transform: uppercase;
     font-weight: 600;
+    padding: 4rem;
   }
   /* Termina ubicacion */
 }
+.titulo {
+  color: rgb(113, 8, 211);
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bolder;
+  margin-left: 1.5rem;
+}
+
+.subtitulo-1 {
+  color: rgba(128, 0, 128, 0.649);
+  font-size: 1rem;
+  font-style: oblique;
+  font-weight: bolder;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.historia-3 {
+  text-transform: capitalize;
+  color: rgba(100, 7, 0, 0.577);
+  border: 2px under rgb(191, 130, 238);
+  padding: 0;
+}
+
 /* Empieza trabajos */
 .ejemplos {
   background-color: rgba(236, 155, 126, 0.507);
@@ -310,8 +328,8 @@
 }
 
 .imgtrabajos {
-  height: 6rem;
   width: 6rem;
+  height: 6rem;
 }
 
 /* Termina trabajos */
@@ -346,8 +364,8 @@
 }
 
 .imagenservicio {
-  height: 6rem;
   width: 6rem;
+  height: 6rem;
 }
 
 /* Termmina Servicios */
@@ -361,8 +379,8 @@
     padding-right: 1rem;
   }
   .imgtrabajos {
-    height: 6rem;
-    width: 6rem;
+    width: 10rem;
+    height: 11rem;
   }
   /* Termina trabajos */
   /* Empieza Servicios */
@@ -443,6 +461,31 @@
   }
   /* Termmina Servicios */
 }
+.titulo {
+  color: rgb(113, 8, 211);
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bolder;
+  margin-left: 1.5rem;
+}
+
+.subtitulo-1 {
+  color: rgba(128, 0, 128, 0.649);
+  font-size: 1rem;
+  font-style: oblique;
+  font-weight: bolder;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.historia-3 {
+  text-transform: capitalize;
+  color: rgba(100, 7, 0, 0.577);
+  border: 2px under rgb(191, 130, 238);
+  padding: 0;
+}
+
 /* Empieza novedades */
 .nov {
   margin-left: 2rem;
@@ -480,6 +523,31 @@
 }
 
 /* Termina contacto */
+.titulo {
+  color: rgb(113, 8, 211);
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bolder;
+  margin-left: 1.5rem;
+}
+
+.subtitulo-1 {
+  color: rgba(128, 0, 128, 0.649);
+  font-size: 1rem;
+  font-style: oblique;
+  font-weight: bolder;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.historia-3 {
+  text-transform: capitalize;
+  color: rgba(100, 7, 0, 0.577);
+  border: 2px under rgb(191, 130, 238);
+  padding: 0;
+}
+
 .pagetittle {
   color: rgb(74, 14, 131);
   font-size: 2rem;
@@ -524,6 +592,31 @@
     width: 15rem;
   }
 }
+.titulo {
+  color: rgb(113, 8, 211);
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bolder;
+  margin-left: 1.5rem;
+}
+
+.subtitulo-1 {
+  color: rgba(128, 0, 128, 0.649);
+  font-size: 1rem;
+  font-style: oblique;
+  font-weight: bolder;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.historia-3 {
+  text-transform: capitalize;
+  color: rgba(100, 7, 0, 0.577);
+  border: 2px under rgb(191, 130, 238);
+  padding: 0;
+}
+
 .participa {
   color: rgba(0, 0, 0, 0.918);
   font-size: 2rem;
@@ -603,6 +696,31 @@
     font-weight: 600;
   }
 }
+.titulo {
+  color: rgb(113, 8, 211);
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bolder;
+  margin-left: 1.5rem;
+}
+
+.subtitulo-1 {
+  color: rgba(128, 0, 128, 0.649);
+  font-size: 1rem;
+  font-style: oblique;
+  font-weight: bolder;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.historia-3 {
+  text-transform: capitalize;
+  color: rgba(100, 7, 0, 0.577);
+  border: 2px under rgb(191, 130, 238);
+  padding: 0;
+}
+
 .titulohistoria {
   color: rgba(76, 0, 130, 0.964);
   font-size: 1rem;
@@ -700,6 +818,31 @@
     font-size: small;
   }
 }
+.titulo {
+  color: rgb(113, 8, 211);
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bolder;
+  margin-left: 1.5rem;
+}
+
+.subtitulo-1 {
+  color: rgba(128, 0, 128, 0.649);
+  font-size: 1rem;
+  font-style: oblique;
+  font-weight: bolder;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.historia-3 {
+  text-transform: capitalize;
+  color: rgba(100, 7, 0, 0.577);
+  border: 2px under rgb(191, 130, 238);
+  padding: 0;
+}
+
 .listadeprecio {
   height: 25rem;
   width: 20rem;

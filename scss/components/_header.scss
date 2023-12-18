@@ -14,24 +14,17 @@
         flex-direction: row;
         position: relative;
         align-items: center;
-        height: 5.5rem;
+        @include foto (null,5.5rem);
     }
 
 .logo-menu{
-    width:4rem;
-    height:4rem;
+    @include foto (4rem,4rem);
     margin-left:1rem;
     border-radius: 4rem;
     }
 
 .titulo{
-        color: rgb(113, 8, 211);
-        font-size: 1.4rem;
-        text-transform: uppercase;
-        font-style: italic;
-        font-weight: bolder;
-        margin-left: 1.5rem;
-        
+    @extend %titulo;
     }
 
 /*Termina barra de menu */
@@ -40,12 +33,11 @@
 {
 .barra {
         background-color: rgba(236, 182, 174, 0.664);
-        height: 6rem;
+        @include foto (null,6rem);
     }
 
 .logo-menu{
-    width:6rem;
-    height:6rem;
+    @include foto (6rem,6rem);
     }
 
 .titulo{
@@ -57,12 +49,11 @@
 @media only screen and (min-width:750px) {
 .barra {
         background-color: rgba(236, 182, 174, 0.907);
-        height: 7rem;
+        @include foto (null,7rem);
     }
 
 .logo-menu{
-    width:8rem;
-    height:8rem;
+    @include foto (8rem,8rem);
     }
 
 .titulo{
