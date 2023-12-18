@@ -1,0 +1,217 @@
+/* ESTILOS GLOBALES */
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.fondo {
+  background-color: rgba(245, 227, 220, 0.521);
+}
+
+/*Empieza barra de menu */
+.barra {
+  background-color: rgba(255, 103, 80, 0.414);
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  height: 6rem;
+}
+
+.logo-menu {
+  width: 4rem;
+  height: 6rem;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.nav-item {
+  font-size: 1rem;
+}
+
+.titulo-1 {
+  color: rgb(74, 14, 131);
+  font-size: 1.4rem;
+  font-style: italic;
+  font-weight: bolder;
+  margin-left: 1.5rem;
+}
+
+/*Termina barra de menu */
+/* Empieza historia */
+.subtitulo-1 {
+  color: rgba(128, 0, 128, 0.649);
+  font-size: 1rem;
+  font-style: oblique;
+  font-weight: bolder;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.palabraNegrita {
+  font-size: small;
+  font-weight: 600;
+}
+
+.combohistoria2 {
+  text-align: center;
+  background-color: rgba(255, 127, 80, 0.588);
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 3rem);
+}
+
+.historia-1 {
+  grid-column: 1/7;
+  grid-row: 1/2;
+  margin-left: 1rem;
+}
+
+.historia-2 {
+  grid-column: 1/7;
+  grid-row: 2/6;
+  text-align: left;
+  margin-left: 0.5rem;
+}
+
+.historia-3 {
+  grid-column: 8/10;
+  grid-row: 9/10;
+  font-size: smaller;
+}
+
+.salonestetica {
+  height: 22rem;
+  width: 8rem;
+  grid-column: 8/10;
+}
+
+.pagina {
+  text-transform: capitalize;
+  color: rgba(100, 7, 0, 0.577);
+  border: 2px solid rgb(191, 130, 238);
+}
+
+/* Termina historia */
+/* Empieza ubicacion */
+.ubicacion {
+  background-color: rgb(147, 78, 211);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(8, 1.5rem);
+}
+
+.googlemapsubicacion {
+  height: 11rem;
+  width: 11rem;
+}
+
+.visit {
+  grid-column: 2/7;
+  grid-row: 1/4;
+  font-size: 1rem;
+  align-self: center;
+}
+
+.palabraNegro {
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: right;
+}
+
+.barra {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  justify-self: center;
+  font-weight: 600;
+  grid-column: 2/7;
+  grid-row: 4/7;
+}
+
+/* Termina ubicacion */
+/* Empieza Servicios */
+.service {
+  background-color: rgba(220, 91, 93, 0.622);
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.serv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 10rem);
+}
+
+.titulodeservicio {
+  color: rgba(220, 20, 20, 0.921);
+  text-decoration-line: underline;
+  font: size 2rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.imagenservicio {
+  height: 6rem;
+  width: 6rem;
+}
+
+/* Termmina Servicios */
+/* Empieza trabajos */
+.ejemplos {
+  background-color: rgba(255, 127, 80, 0.507);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.imgtrabajos {
+  height: 6rem;
+  width: 6rem;
+}
+
+/* Termina trabajos */
+/* Empieza novedades */
+.novedades {
+  list-style: circle;
+  background-color: rgba(165, 42, 42, 0.349);
+}
+
+/* Termina novedades */
+/* Empieza contacto */
+.redessociales {
+  font-size: larger;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.logo {
+  width: 1rem;
+  height: 1rem;
+}
+
+.comenta {
+  font-size: larger;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: right;
+}
+
+/* Termina contacto */
+
+/*# sourceMappingURL=styles.css.map */
