@@ -24,7 +24,9 @@
     }
 
 .titulo{
-    @extend %titulo;
+    @extend %tituloindiana;
+    color: rgb(113, 8, 211);
+    font-size: 1.4rem;
     }
 
 /*Termina barra de menu */
@@ -32,16 +34,18 @@
 @media only screen and (min-width:500px)
 {
 .barra {
-        background-color: rgba(236, 182, 174, 0.664);
+        background-color: rgba(203, 117, 104, 0.664);
         @include foto (null,6rem);
+        display: flex;
+        justify-content: space-around;
     }
 
 .logo-menu{
-    @include foto (6rem,6rem);
+    @include foto (5.5rem,5.5rem);
     }
 
 .titulo{
-        color: rgba(71, 7, 131, 0.779);
+        color: rgba(131, 3, 135, 0.779);
         font-size: 1.4rem;
     }
 }
@@ -49,15 +53,17 @@
 @media only screen and (min-width:750px) {
 .barra {
         background-color: rgba(236, 182, 174, 0.907);
-        @include foto (null,7rem);
+        @include foto (null,5rem);
+        display: flex;
+        justify-content: space-around;
     }
 
 .logo-menu{
-    @include foto (8rem,8rem);
+    @include foto (5rem,5rem);
     }
 
 .titulo{
-        color: rgba(71, 7, 131, 0.779);
-        font-size: 1.8rem;
+        color: rgba(64, 2, 63, 0.766);
+        font-size: 2rem;
     }
 }

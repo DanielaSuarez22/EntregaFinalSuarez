@@ -6,6 +6,27 @@
 
 @import "../base/mixinds.scss";
 
+/* Empieza header */
+.barra {
+    background-color: rgba(236, 182, 174, 0.414);
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    @include foto (null,5.5rem);
+}
+
+.logo-menu{
+    @include foto (4rem,4rem);
+    margin-left:1rem;
+    border-radius: 4rem;
+}
+
+.titulo-1{
+    @extend %tituloindiana;
+    color: rgb(113, 8, 211);
+    font-size: 1.4rem;
+}
 
 .participa{
     color:rgba(0, 0, 0, 0.918);
@@ -24,6 +45,10 @@
     text-transform:capitalize
 }
 
+
+/* Termina header */
+
+/* Empieza main */
 .opcion{
     font-size: larger;
     font-weight: 800;
@@ -41,60 +66,125 @@
     font-weight: 600;
     text-transform:capitalize
 }
+/* Termina main */
+
 
 @media only screen and (min-width:500px)
 {
-    .participa{
-        color:rgba(0, 0, 0, 0.918);
-        font-size: 2rem;
-    
-    }
-    
-    .como{
-        font-size: larger;
-        font-weight: 800;
-    }
-    
-    .opcion{
-        font-size: larger;
-        font-weight: 800;
-    }
-    
-    .consigna{
-        font-size: larger;
-        font-weight: 600;
-    }
-    
-    .explicacion{
-        font-size: larger;
-        font-weight: 600;
-    }
+/* Empieza header */
+
+.logo-menu{
+    @include foto (4rem,4rem);
+}
+
+.titulo-1{
+    color: rgb(113, 8, 211);
+    font-size: 1.4rem;
+}
+
+.participa{
+    color:rgba(0, 0, 0, 0.918);
+    font-size: 2rem;
+}
+
+/* Termina header */
+
+/* Empieza main */
+.opcion{
+    font-size: larger;
+    font-weight: 800;
+    text-transform:uppercase
+}
+
+.consigna{
+    font-size: larger;
+    font-weight: 600;
+    text-transform:uppercase
+}
+
+.explicacion{
+    font-size: larger;
+    font-weight: 600;
+    text-transform:capitalize
+}
+/* Termina main */
+
+/* Empieza footer */
+.volverpaginaprincipal{
+    background-color: rgba(139, 0, 139, 0.925);
+    color: rgb(255, 255, 255);
+}
+
+/* Termina footer */
 }
 
 @media only screen and (min-width:750px) {
+    .barra {
+        background-color: rgba(236, 182, 174, 0.414);
+        display:flex;
+        flex-direction: row;
+        position: relative;
+        align-items: center;
+        @include foto (null,5.5rem);
+    }
+    
+    .logo-menu{
+        @include foto (4rem,4rem);
+        margin-left:1rem;
+        border-radius: 4rem;
+    }
+    
+    .titulo-1{
+        color: rgb(113, 8, 211);
+        font-size: 1.4rem;
+    }
+    
     .participa{
         color:rgba(0, 0, 0, 0.918);
         font-size: 2rem;
+        font-style: oblique;
+        font-weight: bolder;
+        text-align: left;
+        text-transform: uppercase;
         border-bottom: violet solid 1px;
+    
     }
     
     .como{
         font-size: larger;
         font-weight: 800;
+        text-transform:capitalize
     }
     
+    
+    /* Termina header */
+    
+    /* Empieza main */
     .opcion{
         font-size: larger;
         font-weight: 800;
+        text-transform:uppercase
     }
     
     .consigna{
         font-size: larger;
         font-weight: 600;
+        text-transform:uppercase
     }
     
     .explicacion{
         font-size: larger;
         font-weight: 600;
+        text-transform:capitalize
     }
+    /* Termina main */
+    
+    /* Empieza footer */
+    .volverpaginaprincipal{
+        background-color: rgba(139, 0, 139, 0.925);
+        color: rgb(255, 255, 255);
+    }
+    
+    /* Termina footer */
+
 }

@@ -1,6 +1,4 @@
-%titulo {
-    color: rgb(113, 8, 211);
-    font-size: 1.4rem;
+%tituloindiana {
     text-transform: uppercase;
     font-style: italic;
     font-weight: bolder;
@@ -9,7 +7,6 @@
 
 %subtitulouno{
     color: rgba(128, 0, 128, 0.649);
-    font-size : 1rem;
     font-style : oblique;
     font-weight : bolder;
     text-align : left;
@@ -18,11 +15,31 @@
 
 
 
-%pagina{
+%paginamas{
     text-transform: capitalize;
     color: rgba(100, 7, 0, 0.577);
     border: 2px under rgb(191, 130, 238);
     padding: 0;
 }
 
+%nombreservicio {
+    color: rgba(220, 20, 20, 0.921);
+    text-decoration-line:underline;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-left: 1rem;
+}
 
+%paggetittle {
+    font-style: italic;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: rgba(165, 42, 42, 0.393);
+}
+
+%palabratext
+{
+    font-style: italic;
+    font-weight: bolder;
+    text-transform: uppercase;
+}

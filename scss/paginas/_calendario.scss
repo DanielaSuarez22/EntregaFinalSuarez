@@ -6,51 +6,110 @@
 
 @import "../base/mixinds.scss";
 
+/*Empieza header*/
+.barra {
+    background-color: rgba(236, 182, 174, 0.414);
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    @include foto (null,5.5rem);
+}
+
+.logo-menu{
+    @include foto (4rem,4rem);
+    margin-left:1rem;
+    border-radius: 4rem;
+}
+
+.titulo-1{
+    @extend %tituloindiana;
+    color: rgb(113, 8, 211);
+    font-size: 1.4rem;
+}
+/* Termina header */
 
 
+/*Empieza main */
 .pagetittle {
+    @extend %paggetittle;
     color: rgb(74, 14, 131);
     font-size: 2rem;
-    padding: 2rem;
-    font-style: italic;
-    font-weight: bolder;
-    text-transform: uppercase;
-    background-color: rgba(165, 42, 42, 0.393);
 }
 .calendari{
-    height:15rem ;
-    width: 15rem;
+    @include foto (14rem,15rem);
 }
 .calendariosemanal {
     display: flex;
     flex-wrap: wrap;
 }
 
+/*Termina main */
+
 @media only screen and (min-width:500px)
 {
+/*Empieza header*/
+.barra {
+    background-color: rgba(236, 182, 174, 0.414);
+    @include foto (null,5.5rem);
+}
+
+.logo-menu{
+    @include foto (4rem,4rem);
+    margin-left:1rem;
+    border-radius: 4rem;
+}
+
+.titulo-1{
+    color: rgb(113, 8, 211);
+    font-size: 1.4rem;
+}
+/* Termina header */
+
+
+/*Empieza main */
 .pagetittle {
     color: rgb(74, 14, 131);
     font-size: 2rem;
-    padding: 2rem;
-    background-color: rgba(165, 42, 42, 0.393);
 }
 .calendari{
-    height:15rem ;
-    width: 15rem;
+    @include foto (14rem,15rem);
 }
+
+/*Termina main */
+
 }
 
 
 @media only screen and (min-width:750px) {
 
+/*Empieza header*/
+
+.logo-menu{
+    @include foto (4rem,4rem);
+    margin-left:1rem;
+    border-radius: 4rem;
+}
+
+.titulo-1{
+    color: rgb(113, 8, 211);
+    font-size: 1.4rem;
+}
+/* Termina header */
+
+
+/*Empieza main */
 .pagetittle {
     color: rgb(74, 14, 131);
     font-size: 2rem;
-    padding: 2rem;
-    background-color: rgba(165, 42, 42, 0.393);
 }
 .calendari{
-    height:15rem ;
-    width: 15rem;
+    @include foto (15rem,15rem);
 }
+.calendariosemanal {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*Termina main */
+
 }

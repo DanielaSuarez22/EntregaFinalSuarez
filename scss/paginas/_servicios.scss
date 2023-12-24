@@ -6,28 +6,72 @@
 
 @import "../base/mixinds.scss";
 
+/* Empieza header */
+.barra {
+    background-color: rgba(236, 182, 174, 0.414);
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    @include foto (null,5.5rem);
+}
 
+.logo-menu{
+    @include foto (4rem,4rem);
+    margin-left:1rem;
+    border-radius: 4rem;
+}
+
+.titulo-1{
+    @extend %tituloindiana;
+    color: rgb(113, 8, 211);
+    font-size: 1.4rem;
+}
+.pagetittle {
+    @extend %paggetittle;
+    color: rgb(74, 14, 131);
+    font-size: 1rem;
+}
+.palabraNegrita {
+    @extend %palabratext;
+}
+/* Termina header */
+
+/* Empieza main */
 .listadeprecio{
-    height:25rem ;
-    width: 20rem;
+    @include foto (20rem,25rem);
     
 }
+/* Termina main */
+
+/* Empieza footer */
+.volverpaginaprincipal{
+    background-color: rgba(127, 20, 127, 0.925);
+    color: rgb(255, 255, 255);
+}
+/* Termina footer */
+
 
 @media only screen and (min-width:500px)
 {
+    .logo-menu{
+        @include foto (5rem,5rem);
+    }
+    
     .listadeprecio{
-        height:25rem ;
-        width: 20rem;
+        @include foto (24rem,29rem)
         
     }
     
 }
 
 @media only screen and (min-width:750px) {
+    .logo-menu{
+        @include foto (5.5rem,5.5rem);
+    }
+    
     .listadeprecio{
-        height:25rem ;
-        width: 20rem;
-        
+        @include foto (29rem,34rem)
     }
     
 }
