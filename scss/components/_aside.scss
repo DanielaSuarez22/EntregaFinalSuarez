@@ -19,10 +19,14 @@
 .pagina {
     @extend %paginamas;
 }
+.paginaserv{
+    padding-left: 6rem;
+}
 .serv {
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2 , 10rem);
+    padding-left: 1.5rem;
 }
 
 .titulodeservicio{
@@ -36,7 +40,6 @@
 /* Termmina Servicios */
 /* Empieza trabajos */
 .ejemplos{
-    background-color: rgba(236, 155, 126, 0.507);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -60,6 +63,9 @@
     align-self: center;
 }
 
+.paginaserv {
+    padding-left: 13rem;
+}
 .serv {
     display:grid;
     grid-template-columns: repeat(4, 1fr);
@@ -94,7 +100,6 @@
 
 /* Empieza trabajos */
     .ejemplos{
-        background-color: rgba(236, 155, 126, 0.507);
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -111,7 +116,10 @@
 /* Empieza Servicios */
 .pagina {
     font-size: 1rem;
-    }
+}
+.paginaserv{
+    padding-left: 18rem;
+}
 .service {
     background-color: rgba(243, 133, 135, 0.622);
     padding: 1rem;
@@ -153,7 +161,6 @@
 /* Termmina Servicios */
        /* Empieza trabajos */
 .ejemplos{
-        background-color: rgba(236, 146, 113, 0.507);
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;

@@ -3,13 +3,19 @@
     font-style: italic;
     font-weight: bolder;
     margin-left: 1.5rem;
+    color: rgba(64, 2, 63, 0.766);
 }
-
+%menu {
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bolder;
+    color: rgba(64, 2, 63, 0.766);
+}
 %subtitulouno{
     color: rgba(128, 0, 128, 0.649);
     font-style : oblique;
     font-weight : bolder;
-    text-align : left;
+    text-align : center;
     text-transform : uppercase;
 }
 
@@ -17,13 +23,12 @@
 
 %paginamas{
     text-transform: capitalize;
-    color: rgba(100, 7, 0, 0.577);
-    border: 2px under rgb(191, 130, 238);
-    padding: 0;
+    color: rgba(163, 4, 102, 0.895);
+    text-shadow: rgb(24, 23, 20) 1px 0px 0px, rgb(24, 23, 20) 0.540302px 0.841471px 0px, rgb(24, 23, 20) -0.416147px 0.909297px 0px, rgb(24, 23, 20) -0.989992px 0.14112px 0px, rgb(24, 23, 20) -0.653644px -0.756802px 0px, rgb(24, 23, 20) 0.283662px -0.958924px 0px, rgb(24, 23, 20) 0.96017px -0.279415px 0px;
 }
 
 %nombreservicio {
-    color: rgba(220, 20, 20, 0.921);
+    color: rgba(74, 3, 55, 0.921);
     text-decoration-line:underline;
     text-transform: uppercase;
     font-weight: bolder;

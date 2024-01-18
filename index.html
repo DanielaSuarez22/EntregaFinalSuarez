@@ -42,22 +42,24 @@
           <h1 class="titulo">indiana estetica</h1>
       </section>
 
-      <nav class="navbar">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">Menu</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#historia">historia</a>
-              <a class="nav-link" href="#servicios">servicios</a>
-              <a class="nav-link" href="#trabajos">trabajos</a>
-              <a class="nav-link" href="#trabajos">novedades</a>
-              <a class="nav-link" href="#trabajos">contacto</a>
-            </div>
-          </div>
-        </div>
+      <nav class="menu">
+            <ul class="menu-items">
+              <li>
+                <a class="nav-link" href="#historia">HISTORIA</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#servicios">SERVICIOS</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#trabajos">TRABAJOS</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#novedades">NOVEDADES</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#contacto">CONTACTO</a>
+              </li>
+            </ul>
       </nav>
   </header>
     <!-- Termina barra de menu -->
@@ -92,6 +94,7 @@
       <div>
         <p class="palabraNegro visit">Te invitamos a visitarnos</p>
         <iframe
+          title="nuestra ubicacion"
           class="googlemapsubicacion"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.2515333664137!2d-64.25016552457997!3d-27.740386728293746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943b53d95c99507f%3A0x80be3f6e041d90a6!2sGaray%201015%2C%20La%20Banda%2C%20Santiago%20del%20Estero!5e0!3m2!1ses-419!2sar!4v1698595425213!5m2!1ses-419!2sar">
         </iframe>
@@ -116,27 +119,27 @@
 
     <div class="serv">
       <div class="cejas">
-          <img class="imagenservicio" src="./img/cejas.jpg" alt="cejas" />
+          <img class="imagenservicio" src="./img/cejas.jpg" alt="logodecejas" />
           <p class="titulodeservicio">cejas</p>
       </div>
 
       <div class="pestañas">
-          <img class="imagenservicio" src="./img/pestañas.jpg" alt="pestañas" />
+          <img class="imagenservicio" src="./img/pestañas.jpg" alt="logodepestañas" />
           <p class="titulodeservicio">pestañas</p>
       </div>
 
       <div class="manicura">
-          <img class="imagenservicio" src="./img/uña.jpg" alt="uñas" />
+          <img class="imagenservicio" src="./img/uña.jpg" alt="logodeuñas" />
           <p class="titulodeservicio">manicura</p>
       </div>
 
       <div class="depilacion">
-          <img class="imagenservicio" src="./img/cera.png" alt="depilacion" />
+          <img class="imagenservicio" src="./img/cera.png" alt="logodecera" />
           <p class="titulodeservicio">depilacion</p>
       </div>
     </div>
     <div>
-      <a class="pagina" href="./pages/servicios.html"
+      <a class="pagina paginaserv" href="./pages/servicios.html"
       >más detalles</a>
     </div>
   <!-- Termmina Servicios -->
@@ -152,49 +155,49 @@
         <li>
             <img class="imgtrabajos"
               src="./img/uñas1.jpeg"
-              alt="esmaltadosemi"
+              alt="esmaltadosemipermanentejemplo1"
             />
         </li>
         <li>
             <img class="imgtrabajos"
               src="./img/uñas2.jpeg"
-              alt="esmaltadosemi"
+              alt="esmaltadosemipermanentejemplo2"
             />
         </li>
         <li>
             <img class="imgtrabajos"
               src="./img/uñas3.jpeg"
-              alt="esmaltadosemi"
+              alt="esmaltadosemipermanentejemplo3"
             />
         </li>
         <li>
             <img class="imgtrabajos"
               src="./img/uñas4.jpeg"
-              alt="esmaltadosemi"
+              alt="esmaltadosemipermanentejemplo4"
             />
         </li>
         <li>
             <img class="imgtrabajos"
               src="./img/pestañas1.jpeg"
-              alt="pestañas"
+              alt="pestañasejemplo1"
             />
         </li>
         <li>
             <img class="imgtrabajos"
               src="./img/pestañas2.jpeg"
-              alt="pestañas"
+              alt="pestañasejemplo2"
             />
         </li>
         <li>
             <img class="imgtrabajos"
               src="./img/pestañas3.jpeg"
-              alt="pestañas"
+              alt="pestañasejemplo3"
             />
         </li>
         <li>
             <img class="imgtrabajos" 
                 src="./img/pestañas4.jpeg" 
-                alt="pestañs" />
+                alt="pestañasejemplo4" />
         </li>
       </ul>
       </div>
@@ -214,9 +217,9 @@
       </li>
       <li class="palabraNegrita">
           te dejamos esta tabla de
-          <a class="pinterest" href="https://pin.it/7LV2cG0" target="_blank">
-            pinterest</a
-          >
+          <a class="pinterest" href="https://pin.it/7LV2cG0" target="_blank" rel="sponsored">
+            pinterest
+          </a>
           con los ultimos diseños de moda
       </li>
       <li class="palabraNegrita">regala una gift card
@@ -233,7 +236,7 @@
 
     <!-- Empieza contacto -->
     <div id="contacto">
-      <p class="subtitulo-1">
+      <p class="subtitulo-1 fondocontacto">
         contacto
       </p>
       <p class="palabraNegrita">
@@ -243,23 +246,19 @@
           <ul class="redessociales">
             <li class="logo-wpp">
               <a href="https://wa.me/c/5493854810936" target="_blank">
-                <img class="logo" src="./img/logo-wpp.png" alt="logowpp"/>
+                <img class="logo" src="./img/logo-wpp.png" alt="logowpp" rel="nofollow"/>
               </a>
             </li>
             <li class="logo-ig">
               <a href="https://www.instagram.com/stories/indianaestetica/3260597713350942897/" 
               target="_blank">
-              <img class="logo" src="./img/logo-ig.png" alt="logoig"/>
+              <img class="logo" src="./img/logo-ig.png" alt="logoig" rel="ugc"/>
               </a>
             </li>
             <li class="logo-tiktok">
               <a href="https://www.tiktok.com/es/"
                 target="_blank">
-                <img
-                  class="logo"
-                  src="./img/logo-tiktok.png"
-                  alt="logotiktok"
-                  />
+                <img class="logo" src="./img/logo-tiktok.png" alt="logotiktok" rel="ugc"/>
               </a>
             </li>
           </ul>

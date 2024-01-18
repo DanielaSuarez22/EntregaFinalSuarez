@@ -9,7 +9,7 @@
 
 /*Empieza barra de menu */
 .barra {
-        background-color: rgba(236, 182, 174, 0.414);
+        background-color: rgb(255,250,205);
         display:flex;
         flex-direction: row;
         position: relative;
@@ -25,16 +25,26 @@
 
 .titulo{
     @extend %tituloindiana;
-    color: rgb(113, 8, 211);
     font-size: 1.4rem;
     }
+
+.menu .menu-items{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    font-size: 0.4rem;
+    @extend %menu;
+}
+
 
 /*Termina barra de menu */
 
 @media only screen and (min-width:500px)
 {
 .barra {
-        background-color: rgba(203, 117, 104, 0.664);
         @include foto (null,6rem);
         display: flex;
         justify-content: space-around;
@@ -45,14 +55,14 @@
     }
 
 .titulo{
-        color: rgba(131, 3, 135, 0.779);
         font-size: 1.4rem;
     }
 }
 
+
+
 @media only screen and (min-width:750px) {
 .barra {
-        background-color: rgba(236, 182, 174, 0.907);
         @include foto (null,5rem);
         display: flex;
         justify-content: space-around;
@@ -63,7 +73,6 @@
     }
 
 .titulo{
-        color: rgba(64, 2, 63, 0.766);
         font-size: 2rem;
     }
 }
