@@ -31,36 +31,39 @@
 <body class="fondo">
   <!--Empieza barra de menu-->
   <header>
-    <div class="barra">
-      <div>
-        <a href="./index.html"> 
-          <img class="logo-menu" src="./img/logoindiana.jpeg" alt="logo"/>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <img class="logo-menu" src="./img/logoindiana.jpeg" alt="logoestetica" width="100px">
         </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#historia">Historia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servicios">Servicios</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Más
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#trabajos">Trabajos</a></li>
+                <li><a class="dropdown-item" href="#novedades">Novedades</a></li>
+                <li><hr class="dropdown-divider"></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
       </div>
-
-      <section>
-          <h1 class="titulo">indiana estetica</h1>
-      </section>
-
-      <nav class="menu">
-            <ul class="menu-items">
-              <li>
-                <a class="nav-link" href="#historia">HISTORIA</a>
-              </li>
-              <li>
-                <a class="nav-link" href="#servicios">SERVICIOS</a>
-              </li>
-              <li>
-                <a class="nav-link" href="#trabajos">TRABAJOS</a>
-              </li>
-              <li>
-                <a class="nav-link" href="#novedades">NOVEDADES</a>
-              </li>
-              <li>
-                <a class="nav-link" href="#contacto">CONTACTO</a>
-              </li>
-            </ul>
-      </nav>
+    </nav>
   </header>
     <!-- Termina barra de menu -->
 
